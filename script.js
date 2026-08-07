@@ -10,7 +10,7 @@ let count= 0;
 addBtn.addEventListener("click",function(){
     let taskText = taskInp.value;
     if(taskText === ""){
-        message.textContent = "please enter new task"
+        message.textContent = "please enter new task";
         return;
     }
   let li = document.createElement("li");
@@ -19,7 +19,7 @@ addBtn.addEventListener("click",function(){
     let deleteBtn = document.createElement("button");
     deleteBtn.textContent = "Delete";
 
-    li.appendChild(de)
+    li.appendChild(deleteBtn);
 
     taskList.appendChild(li);
 
