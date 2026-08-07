@@ -13,12 +13,19 @@ addBtn.addEventListener("click",function(){
         message.textContent = "please enter new task";
         return;
     }
-  let li = document.createElement("li");
-  li.textContent = taskText;
+    let li = document.createElement("li");
+    let taskSpan = document.createElement("span");
+    taskSpan.textContent = taskText;
   
+    let noteInp = document.createElement("input");
+    noteInp.type = "text";
+    noteInp.placeholded = "Add Note";
+
     let deleteBtn = document.createElement("button");
     deleteBtn.textContent = "Delete";
 
+    li.appendChild(taskSpan);
+    li.appendChild(noteInp);
     li.appendChild(deleteBtn);
 
     taskList.appendChild(li);
