@@ -19,7 +19,7 @@ addBtn.addEventListener("click",function(){
   
     let noteInp = document.createElement("input");
     noteInp.type = "text";
-    noteInp.placeholded = "Add Note";
+    noteInp.placeholder = "Add Note";
 
     let deleteBtn = document.createElement("button");
     deleteBtn.textContent = "Delete";

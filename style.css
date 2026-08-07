@@ -50,3 +50,16 @@ body{
     margin:50px;
     padding:60px 35px;
 }
+li{
+    background-color: aliceblue;
+    margin-top: 15px;
+}
+li span{
+  margin-top:15px;
+}
+li input{
+    margin-top:15px;
+}
+li button{
+    margin-top:15px;
+}
